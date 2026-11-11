@@ -1,8 +1,8 @@
 {
- "run_kst": "2026-11-10 09:11",
+ "run_kst": "2026-11-11 09:10",
  "results": [
   {
-   "date": "20261110",
+   "date": "20261111",
    "ep": "etf_hold",
    "path": "etp/etf_bydd_trd",
    "http": 200,
@@ -11,7 +11,7 @@
    "kept": 0
   },
   {
-   "date": "20261110",
+   "date": "20261111",
    "ep": "kospi_stock",
    "path": "sto/stk_bydd_trd",
    "http": 200,
@@ -20,7 +20,7 @@
    "kept": 0
   },
   {
-   "date": "20261110",
+   "date": "20261111",
    "ep": "kospi_index",
    "path": "idx/kospi_dd_trd",
    "http": 200,
@@ -29,7 +29,7 @@
    "kept": 0
   },
   {
-   "date": "20261110",
+   "date": "20261111",
    "ep": "gold",
    "path": "gen/gold_bydd_trd",
    "http": 200,
@@ -38,7 +38,7 @@
    "kept": 0
   },
   {
-   "date": "20261110",
+   "date": "20261111",
    "ep": "bond_kts",
    "path": "bon/kts_bydd_trd",
    "http": 200,
@@ -47,7 +47,7 @@
    "kept": 0
   },
   {
-   "date": "20261110",
+   "date": "20261111",
    "ep": "bond_index",
    "path": "idx/bon_dd_trd",
    "http": 200,
@@ -56,11 +56,11 @@
    "kept": 0
   },
   {
-   "date": "20261109",
+   "date": "20261110",
    "ep": "etf_hold",
    "path": "etp/etf_bydd_trd",
    "http": 200,
-   "total_rows": 1184,
+   "total_rows": 1190,
    "fields": [
     "BAS_DD",
     "ISU_CD",
@@ -82,14 +82,14 @@
     "CMPPREVDD_IDX",
     "FLUC_RT_IDX"
    ],
-   "kept": 35
+   "kept": 36
   },
   {
-   "date": "20261109",
+   "date": "20261110",
    "ep": "kospi_stock",
    "path": "sto/stk_bydd_trd",
    "http": 200,
-   "total_rows": 938,
+   "total_rows": 936,
    "fields": [
     "BAS_DD",
     "ISU_CD",
@@ -110,7 +110,7 @@
    "kept": 2
   },
   {
-   "date": "20261109",
+   "date": "20261110",
    "ep": "kospi_index",
    "path": "idx/kospi_dd_trd",
    "http": 200,
@@ -132,7 +132,7 @@
    "kept": 2
   },
   {
-   "date": "20261109",
+   "date": "20261110",
    "ep": "gold",
    "path": "gen/gold_bydd_trd",
    "http": 200,
@@ -153,7 +153,7 @@
    "kept": 2
   },
   {
-   "date": "20261109",
+   "date": "20261110",
    "ep": "bond_kts",
    "path": "bon/kts_bydd_trd",
    "http": 200,
@@ -180,7 +180,7 @@
    "kept": 10
   },
   {
-   "date": "20261109",
+   "date": "20261110",
    "ep": "bond_index",
    "path": "idx/bon_dd_trd",
    "http": 200,
@@ -203,35 +203,6 @@
     "BND_IDX_AVG_YD"
    ],
    "kept": 3
-  },
-  {
-   "date": "20261108",
-   "ep": "etf_hold",
-   "path": "etp/etf_bydd_trd",
-   "http": 200,
-   "total_rows": 1184,
-   "fields": [
-    "BAS_DD",
-    "ISU_CD",
-    "ISU_NM",
-    "TDD_CLSPRC",
-    "CMPPREVDD_PRC",
-    "FLUC_RT",
-    "NAV",
-    "TDD_OPNPRC",
-    "TDD_HGPRC",
-    "TDD_LWPRC",
-    "ACC_TRDVOL",
-    "ACC_TRDVAL",
-    "MKTCAP",
-    "INVSTASST_NETASST_TOTAMT",
-    "LIST_SHRS",
-    "IDX_IND_NM",
-    "OBJ_STKPRC_IDX",
-    "CMPPREVDD_IDX",
-    "FLUC_RT_IDX"
-   ],
-   "kept": 35
   },
   {
    "date": "20261108",
@@ -270,60 +241,6 @@
    "kept": 0
   },
   {
-   "date": "20261108",
-   "ep": "bond_index",
-   "path": "idx/bon_dd_trd",
-   "http": 200,
-   "total_rows": 3,
-   "fields": [
-    "BAS_DD",
-    "BND_IDX_GRP_NM",
-    "TOT_EARNG_IDX",
-    "TOT_EARNG_IDX_CMPPREVDD",
-    "NETPRC_IDX",
-    "NETPRC_IDX_CMPPREVDD",
-    "ZERO_REINVST_IDX",
-    "ZERO_REINVST_IDX_CMPPREVDD",
-    "CALL_REINVST_IDX",
-    "CALL_REINVST_IDX_CMPPREVDD",
-    "MKT_PRC_IDX",
-    "MKT_PRC_IDX_CMPPREVDD",
-    "AVG_DURATION",
-    "AVG_CONVEXITY_PRC",
-    "BND_IDX_AVG_YD"
-   ],
-   "kept": 3
-  },
-  {
-   "date": "20261107",
-   "ep": "etf_hold",
-   "path": "etp/etf_bydd_trd",
-   "http": 200,
-   "total_rows": 1184,
-   "fields": [
-    "BAS_DD",
-    "ISU_CD",
-    "ISU_NM",
-    "TDD_CLSPRC",
-    "CMPPREVDD_PRC",
-    "FLUC_RT",
-    "NAV",
-    "TDD_OPNPRC",
-    "TDD_HGPRC",
-    "TDD_LWPRC",
-    "ACC_TRDVOL",
-    "ACC_TRDVAL",
-    "MKTCAP",
-    "INVSTASST_NETASST_TOTAMT",
-    "LIST_SHRS",
-    "IDX_IND_NM",
-    "OBJ_STKPRC_IDX",
-    "CMPPREVDD_IDX",
-    "FLUC_RT_IDX"
-   ],
-   "kept": 35
-  },
-  {
    "date": "20261107",
    "ep": "kospi_stock",
    "path": "sto/stk_bydd_trd",
@@ -358,31 +275,6 @@
    "msg": {},
    "total_rows": 0,
    "kept": 0
-  },
-  {
-   "date": "20261107",
-   "ep": "bond_index",
-   "path": "idx/bon_dd_trd",
-   "http": 200,
-   "total_rows": 3,
-   "fields": [
-    "BAS_DD",
-    "BND_IDX_GRP_NM",
-    "TOT_EARNG_IDX",
-    "TOT_EARNG_IDX_CMPPREVDD",
-    "NETPRC_IDX",
-    "NETPRC_IDX_CMPPREVDD",
-    "ZERO_REINVST_IDX",
-    "ZERO_REINVST_IDX_CMPPREVDD",
-    "CALL_REINVST_IDX",
-    "CALL_REINVST_IDX_CMPPREVDD",
-    "MKT_PRC_IDX",
-    "MKT_PRC_IDX_CMPPREVDD",
-    "AVG_DURATION",
-    "AVG_CONVEXITY_PRC",
-    "BND_IDX_AVG_YD"
-   ],
-   "kept": 3
   }
  ]
 }
