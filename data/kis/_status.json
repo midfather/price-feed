@@ -1,5 +1,5 @@
 {
- "run_kst": "2026-11-18 16:10",
+ "run_kst": "2026-11-19 06:21",
  "calls": [
   {
    "path": "/oauth2/tokenP",
@@ -180,15 +180,15 @@
    "path": "/uapi/domestic-stock/v1/quotations/inquire-price",
    "tr": "FHKST01010100",
    "code": "000660",
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/domestic-stock/v1/quotations/inquire-time-itemchartprice",
    "tr": "FHKST03010200",
    "code": "000660",
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/domestic-stock/v1/quotations/inquire-investor",
@@ -264,8 +264,8 @@
    "path": "/uapi/overseas-price/v1/quotations/price",
    "tr": "HHDFS00000300",
    "code": null,
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/overseas-price/v1/quotations/price",
@@ -299,8 +299,8 @@
    "path": "/uapi/overseas-price/v1/quotations/price",
    "tr": "HHDFS00000300",
    "code": null,
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/overseas-price/v1/quotations/price",
@@ -327,8 +327,8 @@
    "path": "/uapi/overseas-price/v1/quotations/price",
    "tr": "HHDFS00000300",
    "code": null,
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/overseas-price/v1/quotations/price",
@@ -418,8 +418,8 @@
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
    "tr": "FHKST03030100",
    "code": "ESZ26",
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
@@ -558,8 +558,8 @@
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
    "tr": "FHKST03030100",
    "code": "ESZ26",
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
@@ -586,8 +586,8 @@
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
    "tr": "FHKST03030100",
    "code": "ES=F",
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
@@ -600,8 +600,8 @@
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
    "tr": "FHKST03030100",
    "code": "SPXFUT",
-   "ok": true,
-   "msg": "정상처리 되었습니다."
+   "ok": false,
+   "msg": "호출 후처리(MCI전송) 오류 입니다."
   },
   {
    "path": "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice",
@@ -611,6 +611,6 @@
    "msg": "정상처리 되었습니다."
   }
  ],
- "ok": 73,
- "fail": 14
+ "ok": 64,
+ "fail": 23
 }
