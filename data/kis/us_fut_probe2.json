@@ -1,9 +1,9 @@
 {
- "time_kst": "2026-11-19 06:21",
+ "time_kst": "2026-11-19 11:29",
  "probe": {
   "N:ES": {
-   "rows": 7,
-   "price": "71.56"
+   "rows": 8,
+   "price": "71.53"
   },
   "N:NQ": {
    "rows": 0,
@@ -11,7 +11,7 @@
   },
   "N:ESZ26": {
    "rows": 0,
-   "price": null
+   "price": "0.00"
   },
   "N:NQZ26": {
    "rows": 0,
@@ -91,7 +91,7 @@
   },
   "S:ESZ26": {
    "rows": 0,
-   "price": null
+   "price": "0.0000"
   },
   "S:NQZ26": {
    "rows": 0,
@@ -107,7 +107,7 @@
   },
   "S:ES=F": {
    "rows": 0,
-   "price": null
+   "price": "0.0000"
   },
   "S:NQ=F": {
    "rows": 0,
@@ -115,7 +115,7 @@
   },
   "S:SPXFUT": {
    "rows": 0,
-   "price": null
+   "price": "0.0000"
   },
   "S:NDXFUT": {
    "rows": 0,
